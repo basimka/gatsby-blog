@@ -15,12 +15,9 @@ const AboutPage = () => {
                     <th><b><p>Sait:</p></b></th>
                     <th><Link to="https://bobkov.tech">https://bobkov.tech</Link></th> 
                 </tr>
+            </table>
+
             
-            
-            
-            
-            
-            </table> 
             
         </Layout>
     )
