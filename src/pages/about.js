@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 
 const AboutPage = () => {
     return (
-        <Layout  pageTitle="About Me">
+        <Layout  pageTitle="Обо мне">
             <table>
                 <tr>
                     <th><p><b>Telegram:</b></p></th>
@@ -14,6 +14,10 @@ const AboutPage = () => {
                 <tr>
                     <th><b><p>Sait:</p></b></th>
                     <th><Link to="https://bobkov.tech">https://bobkov.tech</Link></th> 
+                </tr>
+                <tr>
+                    <th><b><p>Youtube:</p></b></th>
+                    <th><Link to="https://www.youtube.com/channel/UCpPmKg6Wdjl747M8HtcfRUQ">Dark Daiver channel</Link></th> 
                 </tr>
             </table>
 

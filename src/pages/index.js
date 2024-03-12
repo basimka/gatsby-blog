@@ -6,7 +6,7 @@ import { Link } from 'gatsby'
 
 const IndexPage = ()=> {
   return (
-      <Layout pageTitle="Home Page">
+      <Layout pageTitle="Главная">
         <p>I'm making this by following the Gatsby Tutorial.</p>
         <StaticImage
            alt="Catty"
@@ -14,7 +14,7 @@ const IndexPage = ()=> {
         />
         <table>
                 <tr>
-                    <th><h1>Полезные ссылки:</h1></th>
+                    <th><h2>Полезные ссылки:</h2></th>
                     <th></th>
                 </tr>
                 <tr>
