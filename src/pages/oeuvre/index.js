@@ -8,7 +8,7 @@ const OeuvrePage = () => (
   <Layout>
     <h1>Hi from the Oeuvre Page</h1>
     <p>Welcome to page Oeuvre</p>
-    <p>Postament</p>
+    <Link to="/oeuvre/postament">Postament</Link>
     <p>P.O.N.I.</p>
     <p>Стихи</p>
     <p>Прочее</p>
