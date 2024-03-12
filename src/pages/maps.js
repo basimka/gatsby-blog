@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 const MapsPage = () => (
   <Layout>
     <h1>Hi from the Maps Page</h1>
-    <p>Здесь будут Карты, возможно, когда нибудь. Но мы обязательно попробуем</p>
+    <p>Здесь будут Карты, возможно, когда нибудь. Но мы обязательно попробуем и у нас все получится</p>
     
     <Link to="/">Go back to the homepage</Link>
   </Layout>
