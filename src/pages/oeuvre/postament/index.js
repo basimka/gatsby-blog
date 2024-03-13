@@ -6,8 +6,8 @@ import Seo from "../../../components/seo"
 
 const PostamentPage = () => (
   <Layout>
-    <h1>Песни группы Postament</h1>
-    <h1>Видео</h1>
+    <Link to="/oeuvre/postament/songs">Песни группы Postament</Link>
+    <h1>Видео группы Postament</h1>
     <Link to="/oeuvre">Go back to the Oeuvrepage</Link>
   </Layout>
 )
