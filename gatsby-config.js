@@ -39,6 +39,13 @@ module.exports = {
       } 
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `postament-songs`,
+        path: `${__dirname}/texts/postament`,
+      } 
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
