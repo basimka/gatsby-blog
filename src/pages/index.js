@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
 import Seo from '../components/seo'
 import { Link } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
 
 const IndexPage = ()=> {
   return (
@@ -22,9 +23,33 @@ const IndexPage = ()=> {
                     <th></th>
                 </tr>
             </table>
+<ul>
+    
+</ul>
+
       </Layout>
   )
 }
+
+export const query = graphql`
+  query {
+    allMdx(
+      sort: {frontmatter: {date: DESC}}
+      filter: {frontmatter: {theme: {eq: "blog"}}}
+    ) {
+      nodes {
+        frontmatter {
+          date(formatString: "MMMM D, YYYY")
+          title
+          slug
+        }
+        id
+        excerpt
+      }
+    }
+  }
+`
+
 
 export const Head = () => <Seo title="Home Page" />
 

@@ -4,7 +4,7 @@ import { useStaticQuery, graphql, Link } from 'gatsby'
 import { container,heading,navLinks,navLinkItem,navLinkText, sidebarst} from './layout.module.css'
 
 
-const SideBar =()=>{
+const SideBar =({data})=>{
  
   return(
    <main className={sidebarst} >
@@ -15,7 +15,13 @@ const SideBar =()=>{
     <p>News5</p>
     <p>News6</p>
     <p>News7</p>
+    <ul>
+                
+            </ul>
    </main>
   )
 }
+
+
+
 export default SideBar

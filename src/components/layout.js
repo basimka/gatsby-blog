@@ -5,7 +5,7 @@ import Header from './header'
 import MainMenu from './main-menu'
 import SideBar from './sidebar'
 
-const Layout = ({  pageTitle, children  }) => {
+const Layout = ({  pageTitle, children }) => {
  
   return (
     <div className={container}>
