@@ -4,9 +4,10 @@ import { container,heading,sidepage,sidebarst} from './layout.module.css'
 import Header from './header'
 import MainMenu from './main-menu'
 import SideBar from './sidebar'
+import RightPage from '../pages/right-page'
 
-const Layout = ({  pageTitle, children  }) => {
- 
+const Layout = ({  pageTitle, children, data  }) => {
+  
   return (
     <div className={container}>
       <Header />
@@ -18,11 +19,13 @@ const Layout = ({  pageTitle, children  }) => {
         </div>
         <div>
           <SideBar />
+          
         </div>
       </main>
       
     </div>
   )
 }
+
 
 export default Layout
