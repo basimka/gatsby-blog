@@ -12,7 +12,7 @@ const OeuvrePage = () => (
     <p>P.O.N.I.</p>
     <p>Стихи</p>
     <p>Прочее</p>
-    <Link to="/">Go back to the homepage</Link>
+    <Link to="/">Вернуться назад</Link>
   </Layout>
 )
 

@@ -5,10 +5,14 @@ import Layout from "../../../components/layout"
 import Seo from "../../../components/seo"
 
 const PostamentPage = () => (
-  <Layout>
-    <Link to="/oeuvre/postament/songs">Песни группы Postament</Link>
-    <h1>Видео группы Postament</h1>
-    <Link to="/oeuvre">Go back to the Oeuvrepage</Link>
+  <Layout pageTitle="Postament">
+    <p><Link to="/oeuvre/postament/songs">Песни группы Postament</Link></p>
+    <p><Link to="/oeuvre/postament/video">Видео группы Postament</Link></p>
+    <p><Link to="/oeuvre">Вернуться назад</Link></p>
+    
+    
+    
+    
   </Layout>
 )
 

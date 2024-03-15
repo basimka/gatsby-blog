@@ -6,8 +6,13 @@ import MainMenu from './main-menu'
 import SideBar from './sidebar'
 import RightPage from '../pages/right-page'
 
+<<<<<<< HEAD
 const Layout = ({  pageTitle, children, data  }) => {
   
+=======
+const Layout = ({  pageTitle, children }) => {
+ 
+>>>>>>> 70c09e9a18507b0e7614615331c3873fa9740f05
   return (
     <div className={container}>
       <Header />
