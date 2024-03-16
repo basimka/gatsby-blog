@@ -59,6 +59,19 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-yandex-metrica`,
+      options: {
+        trackingId: 96759362,
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        trackHash: true,
+
+        // Detailed recordings of user activity on the site: mouse movement, scrolling, and clicks.
+        webvisor: true,
+      },
+    },
     
   ],
 }
