@@ -5,6 +5,7 @@ import Seo from '../components/seo'
 import { Link } from 'gatsby'
 import { graphql, useStaticQuery } from 'gatsby'
 
+
 const IndexPage = ()=> {
   return (
       <Layout pageTitle="Главная">
