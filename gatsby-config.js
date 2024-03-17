@@ -62,7 +62,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-yandex-metrica`,
       options: {
-        trackingId: 96759362,
+        trackingId: '96759362',
         clickmap: true,
         trackLinks: true,
         accurateTrackBounce: true,
