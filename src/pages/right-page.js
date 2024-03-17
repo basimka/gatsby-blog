@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { useStaticQuery, graphql } from 'gatsby'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-
+import YandexMetric from '../components/yandexmetric'
 const RightPage = ({data}) => {
     console.log(data)
     return(

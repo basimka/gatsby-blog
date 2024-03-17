@@ -5,7 +5,7 @@ import Seo from '../components/seo'
 import { Link } from 'gatsby'
 import { graphql, useStaticQuery } from 'gatsby'
 import YandexMetric from '../components/yandexmetric'
-import Helmet from "react-helmet"
+
 
 
 const IndexPage = ()=> {
