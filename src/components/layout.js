@@ -5,7 +5,7 @@ import Header from './header'
 import MainMenu from './main-menu'
 import SideBar from './sidebar'
 import RightPage from '../pages/right-page'
-
+import YandexMetric from './yandexmetric'
 const Layout = ({  pageTitle, children }) => {
  
   return (
