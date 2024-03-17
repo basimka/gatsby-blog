@@ -10,6 +10,7 @@ const MapsPage = () => (
     <p>Здесь будут Карты, возможно, когда нибудь. Но мы обязательно попробуем и у нас все получится</p>
     
     <Link to="/">Go back to the homepage</Link>
+    <YandexMetric />
   </Layout>
 )
 

@@ -24,7 +24,9 @@ const RightPage = ({data}) => {
                     ))
                 }
             </ul>
+            <YandexMetric />
         </main>
+        
       )
 }
   

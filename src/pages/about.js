@@ -22,7 +22,7 @@ const AboutPage = () => {
             </table>
 
             
-            
+            <YandexMetric />
         </Layout>
     )
   }

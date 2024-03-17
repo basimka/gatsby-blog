@@ -28,6 +28,7 @@ const UsingSSR = ({ serverData }) => {
         .
       </p>
       <Link to="/">Go back to the homepage</Link>
+      <YandexMetric />
     </Layout>
   )
 }
