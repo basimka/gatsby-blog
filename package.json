@@ -1,10 +1,11 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Techno blog BOBKOV.TECH",
+  "version": "0.1.1",
+  "author": "Dark Daiver",
   "dependencies": {
+    "core-js": "^3.36.0",
     "gatsby": "^5.13.3",
     "gatsby-plugin-catch-links": "^5.13.1",
     "gatsby-plugin-image": "^3.13.1",
@@ -15,13 +16,23 @@
     "gatsby-plugin-yandex-metrika": "^2.5.0",
     "gatsby-remark-prismjs": "^7.13.1",
     "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-source-googlemaps-geocoding": "^1.0.0",
     "gatsby-transformer-remark": "^6.13.1",
     "gatsby-transformer-sharp": "^5.13.1",
     "prismjs": "^1.29.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "regenerator-runtime": "^0.14.1"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.21.0",
+    "@babel/plugin-transform-runtime": "^7.24.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-gatsby": "^3.13.1",
+    "babel-preset-stage-0": "^6.24.1",
     "prettier": "^2.8.8"
   },
   "keywords": [
