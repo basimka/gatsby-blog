@@ -1,6 +1,5 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import YandexMetric from '../components/yandexmetric'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -10,7 +9,7 @@ const MapsPage = () => (
     <p>Здесь будут Карты, возможно, когда нибудь. Но мы обязательно попробуем и у нас все получится</p>
     
     <Link to="/">Go back to the homepage</Link>
-    <YandexMetric />
+    
   </Layout>
 )
 

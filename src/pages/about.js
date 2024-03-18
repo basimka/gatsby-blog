@@ -2,7 +2,6 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
 import { Link } from 'gatsby'
-import YandexMetric from '../components/yandexmetric'
 const AboutPage = () => {
     return (
         <Layout  pageTitle="Обо мне">
@@ -12,7 +11,7 @@ const AboutPage = () => {
                 <p><b>Youtube: </b><Link to="https://www.youtube.com/channel/UCpPmKg6Wdjl747M8HtcfRUQ">Dark Daiver channel</Link></p>        
             </div>
             
-            <YandexMetric />
+           
         </Layout>
     )
   }

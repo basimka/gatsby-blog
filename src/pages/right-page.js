@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { graphql } from 'gatsby'
 import Seo from "../components/seo"
-import YandexMetric from '../components/yandexmetric'
+
 const RightPage = ({data}) => {
     console.log(data)
     return(
@@ -23,7 +23,7 @@ const RightPage = ({data}) => {
                     ))
                 }
             </ul>
-            <YandexMetric />
+          
         </main>
         
       )
