@@ -1,11 +1,8 @@
 import * as React from 'react'
-import { Link,useStaticQuery,graphql } from 'gatsby'
-import { container,heading,sidepage,sidebarst} from './layout.module.css'
+import { container,heading,sidepage} from './layout.module.css'
 import Header from './header'
 import MainMenu from './main-menu'
 import SideBar from './sidebar'
-import RightPage from '../pages/right-page'
-import YandexMetric from './yandexmetric'
 const Layout = ({  pageTitle, children }) => {
  
   return (

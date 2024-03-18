@@ -6,21 +6,11 @@ import YandexMetric from '../components/yandexmetric'
 const AboutPage = () => {
     return (
         <Layout  pageTitle="Обо мне">
-            <table>
-                <tr>
-                    <th><p><b>Telegram:</b></p></th>
-                    <th><Link to="https://t.me/bobkovtech">t.me/bobkovtech</Link></th>
-                </tr>
-                <tr>
-                    <th><b><p>Sait:</p></b></th>
-                    <th><Link to="https://bobkov.tech">https://bobkov.tech</Link></th> 
-                </tr>
-                <tr>
-                    <th><b><p>Youtube:</p></b></th>
-                    <th><Link to="https://www.youtube.com/channel/UCpPmKg6Wdjl747M8HtcfRUQ">Dark Daiver channel</Link></th> 
-                </tr>
-            </table>
-
+            <div>
+                <p><b>Telegram: </b><Link to="https://t.me/bobkovtech">t.me/bobkovtech</Link></p>
+                <p><b>Sait: </b><Link to="https://bobkov.tech">https://bobkov.tech</Link></p>
+                <p><b>Youtube: </b><Link to="https://www.youtube.com/channel/UCpPmKg6Wdjl747M8HtcfRUQ">Dark Daiver channel</Link></p>        
+            </div>
             
             <YandexMetric />
         </Layout>

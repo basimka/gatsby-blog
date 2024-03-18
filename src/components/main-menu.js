@@ -1,7 +1,6 @@
 import * as React from "react"
-import {siteTitle} from "./layout.module.css"
-import { useStaticQuery, graphql, Link } from 'gatsby'
-import { container,heading,navLinks,navLinkItem,navLinkText} from './layout.module.css'
+import { Link } from 'gatsby'
+import { navLinks,navLinkItem,navLinkText} from './layout.module.css'
 
 
 const MainMenu =()=>{

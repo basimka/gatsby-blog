@@ -1,8 +1,5 @@
 import * as React from "react"
-import {siteTitle} from "./layout.module.css"
-import { useStaticQuery, graphql, Link } from 'gatsby'
-import { container,heading,navLinks,navLinkItem,navLinkText, sidebarst} from './layout.module.css'
-
+import { sidebarst} from './layout.module.css'
 
 const SideBar =()=>{
  

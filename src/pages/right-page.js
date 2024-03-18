@@ -1,7 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { useStaticQuery, graphql } from 'gatsby'
-import Layout from "../components/layout"
+import { graphql } from 'gatsby'
 import Seo from "../components/seo"
 import YandexMetric from '../components/yandexmetric'
 const RightPage = ({data}) => {

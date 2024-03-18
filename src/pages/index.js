@@ -2,8 +2,7 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
 import Seo from '../components/seo'
-import { Link } from 'gatsby'
-import { graphql, useStaticQuery } from 'gatsby'
+import { graphql} from 'gatsby'
 import Helmet from "react-helmet"
 
 
@@ -18,16 +17,13 @@ const IndexPage = ()=> {
            alt="Catty"
            src="https://koshka.top/uploads/posts/2021-11/1636355962_1-koshka-top-p-kotik-khitrii-1.jpg" 
         />
-        <table>
-                <tr>
-                    <th><h2>Полезные ссылки:</h2></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <th><Link to="https://teremok-kupony.ru/moskva/">Купоны теремок</Link></th>
-                    <th></th>
-                </tr>
-            </table>
+        <div>
+            <h2>Полезные ссылки:</h2>
+            <a href='https://teremok-kupony.ru/moskva/'>Купоны теремок</a>
+        </div>
+                
+            
+            
             <Helmet>
         <script
             dangerouslySetInnerHTML={{
