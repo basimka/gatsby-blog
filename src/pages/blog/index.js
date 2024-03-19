@@ -22,6 +22,7 @@ const BlogPage = ({ data })=> {
                     ))
                 }
             </ul>
+            <Link to="/">Вернуться назад</Link>
         </Layout>
     )
 }

@@ -7,12 +7,11 @@ import { graphql} from 'gatsby'
 
 
 
-
 const IndexPage = ()=> {
   return (
       
       <Layout pageTitle="Главная">
-        <p>I'm making this by following the Gatsby Tutorial.</p>
+        <p>Верстаю по тихоньку блог</p>
         <StaticImage
            alt="Catty"
            src="https://koshka.top/uploads/posts/2021-11/1636355962_1-koshka-top-p-kotik-khitrii-1.jpg" 
@@ -21,6 +20,7 @@ const IndexPage = ()=> {
             <h2>Полезные ссылки:</h2>
             <a href='https://teremok-kupony.ru/moskva/'>Купоны теремок</a>
         </div>
+       
       </Layout>
   )
 }

@@ -11,7 +11,7 @@ const AboutPage = () => {
                 <p><b>Youtube: </b><Link to="https://www.youtube.com/channel/UCpPmKg6Wdjl747M8HtcfRUQ">Dark Daiver channel</Link></p>        
             </div>
             
-           
+            <Link to="/">Вернуться назад</Link>
         </Layout>
     )
   }

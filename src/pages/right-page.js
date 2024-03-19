@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { graphql } from 'gatsby'
 import Seo from "../components/seo"
+import Video from "../components/video"
 
 const RightPage = ({data}) => {
     console.log(data)
@@ -23,6 +24,7 @@ const RightPage = ({data}) => {
                     ))
                 }
             </ul>
+
           
         </main>
         
