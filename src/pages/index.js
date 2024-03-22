@@ -4,9 +4,6 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Seo from '../components/seo'
 import { graphql} from 'gatsby'
 
-
-
-
 const IndexPage = ()=> {
   return (
       
@@ -43,7 +40,6 @@ export const query = graphql`
     }
   }
 `
-
 
 export const Head = () => <Seo title="Home Page" />
 
