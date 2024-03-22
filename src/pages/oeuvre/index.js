@@ -5,9 +5,7 @@ import Layout from "../../components/layout"
 import Seo from "../../components/seo"
 
 const OeuvrePage = () => (
-  <Layout>
-    <h1>Hi from the Oeuvre Page</h1>
-    <p>Welcome to page Oeuvre</p>
+  <Layout pageTitle='Творчество'>
     <Link to="/oeuvre/postament">Postament</Link>
     <p>P.O.N.I.</p>
     <p>Стихи</p>
