@@ -3,8 +3,10 @@ import { container,heading,sidepage} from './layout.module.css'
 import Header from './header'
 import MainMenu from './main-menu'
 import SideBar from './sidebar'
+import { Link } from 'gatsby'
 
-const Layout = ({  pageTitle, children,data }) => {
+
+const Layout = ({  pageTitle, children, data }) => {
  console.log(data)
   return (
     <div className={container}>
@@ -18,12 +20,14 @@ const Layout = ({  pageTitle, children,data }) => {
         <div>
           <SideBar />
           
+          
         </div>
       </main>
       
     </div>
   )
 }
+
 
 
 export default Layout

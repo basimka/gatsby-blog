@@ -1,3 +1,4 @@
+import React from "react"
 const Video = ({ videoSrcURL, videoTitle, ...props }) => (
     <div className="video">
       <iframe
