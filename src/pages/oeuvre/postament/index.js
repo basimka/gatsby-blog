@@ -8,7 +8,7 @@ const PostamentPage = () => (
   <Layout pageTitle="Postament">
     <p><Link to="/oeuvre/postament/songs">Песни группы Postament</Link></p>
     <p><Link to="/oeuvre/postament/video">Видео группы Postament</Link></p>
-    <p><Link to="/oeuvre"><br></br>Вернуться назад</Link></p>
+    <p><Link to="/oeuvre"><br></br>Вернуться обратно</Link></p>
     
     
     

@@ -5,14 +5,14 @@ import Layout from '../../../components/layout'
 import Seo from '../../../components/seo'
 
 
-const SongsPoniPage= ({data}) => (
-  <Layout pageTitle="Творчество Пони">
+const PoetryPage= ({data}) => (
+  <Layout pageTitle="Поэзия и проза">
         <ul>
                 {
                     data.allMdx.nodes.map(node =>(
                         <article key={node.id}>
                             <h2>
-                              <Link to={`/oeuvre/poni/${node.frontmatter.slug}`}>
+                              <Link to={`/oeuvre/poetry/${node.frontmatter.slug}`}>
                                 {node.frontmatter.title}
                               </Link>
                             </h2>
@@ -30,7 +30,7 @@ export const query = graphql`
 query {
   allMdx(
     sort: {frontmatter: {date: DESC}}
-    filter: {frontmatter: {theme: {eq: "poni-song"}}}
+    filter: {frontmatter: {theme: {eq: "poetry"}}}
   ) {
     nodes {
       frontmatter {
@@ -47,4 +47,4 @@ query {
 
 export const Head = () => <Seo title="Postament Songs" />
 
-export default SongsPoniPage
+export default PoetryPage

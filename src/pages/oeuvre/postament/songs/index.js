@@ -22,7 +22,7 @@ const SongsPostPage= ({data}) => (
                     ))
                 }
             </ul>
-    <Link to="/oeuvre">Go back to the Oeuvrepage</Link>
+    <Link to="/oeuvre/postament">Вернуться обратно</Link>
   </Layout>
 )
 

@@ -9,10 +9,12 @@ const OeuvrePage = () => (
     <Link to="/oeuvre/postament">Postament</Link>
     <p></p>
     <Link to="/oeuvre/poni">Poni</Link>
-    
-    <p>Стихи</p>
-    <p>Прочее</p>
-    <Link to="/">Вернуться назад</Link>
+    <p></p>
+    <Link to="/oeuvre/poetry">Стихи и Проза</Link>
+    <p></p>
+    <Link to="/oeuvre/other">Прочее</Link>
+    <p></p>
+    <Link to="/"><br></br>Вернуться назад</Link>
   </Layout>
 )
 
