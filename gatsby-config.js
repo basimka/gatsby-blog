@@ -27,9 +27,25 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-catch-links`,
-    `gatsby-transformer-remark`,
     'gatsby-plugin-image',
-    `gatsby-plugin-mdx`,
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        gatsbyRemarkPlugins: [
+          {
+            resolve: 'gatsby-remark-audio',
+            options: {
+              preload: 'auto',
+              loop: false,
+              controls: true,
+              muted: false,
+              autoplay: false
+            }
+          },
+        ],
+      },
+    },
+    `gatsby-transformer-remark`,
     `gatsby-remark-prismjs`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -42,9 +58,17 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `postament-songs`,
-        path: `${__dirname}/texts/postament`,
+        path: `${__dirname}/texts`,
       } 
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `static-content`,
+        path: `${__dirname}/static`,
+      } 
+    },
+    
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -76,6 +100,7 @@ module.exports = {
         defer: false,
       },
     },
+    
     
     
   ],
