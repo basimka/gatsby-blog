@@ -1,0 +1,33 @@
+---
+title: "2024-03-26"
+date: "2024-03-26"
+slug: "2024-03-26-1"
+theme: "blog"
+tags: "code"
+---
+
+Добавил поддержку MP3 в MD файлы\
+Как обычно все оказалось не тривиально.
+Очень помогла статья:
+[Крутая статья](https://lightrun.com/answers/gatsbyjs-gatsby-gatsby-remark-audio-inside-of-gatsby-plugin-mdx-returning-undefined)
+И ссылки на файлы пришлось доставать с помощью publicURL:
+```
+query MyQuery {
+  allFile(filter: {name: {eq: "liza-poni"}}) {
+    edges {
+      node {
+        id
+        name
+        publicURL
+      }
+    }
+  }
+}
+```
+
+
+
+
+[Вернуться обратно](https://bobkov.tech/blog/)
+
+
